@@ -92,6 +92,43 @@
   </style>
 </head>
 <body>
-  <!-- Body content not shown for brevity -->
+  <header>
+    <img src="FullLogo_Transparent_NoBuffer.png" alt="Coach Tor logo" />
+    <h1>Coach Tor</h1>
+    <nav>
+      <a href="#om">Om meg</a>
+      <a href="#tjenester">Tjenester</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="om">
+    <h2 class="section-title">Om meg</h2>
+    <p>Hei! Jeg er Coach Tor – personlig trener og online coach med 20 års erfaring. Jeg brenner for å gjøre trening enkelt og effektivt for alle, uansett nivå. Mitt mål er å hjelpe deg med å nå dine mål på en måte som er både bærekraftig og gøy!</p>
+  </section>
+
+  <section id="tjenester">
+    <h2 class="section-title">Tjenester</h2>
+    <ul>
+      <li>Skreddersydde treningsprogram</li>
+      <li>Kostholdsplaner for ulike mål</li>
+      <li>1-til-1 online coaching</li>
+      <li>Oppfølging via app</li>
+    </ul>
+  </section>
+
+  <section id="kontakt">
+    <h2 class="section-title">Kontakt meg</h2>
+    <form name="kontakt" method="POST" data-netlify="true">
+      <input type="text" name="navn" placeholder="Navn" required />
+      <input type="email" name="epost" placeholder="E-post" required />
+      <textarea name="melding" placeholder="Hva ønsker du hjelp med?" rows="5" required></textarea>
+      <button type="submit">Send melding</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coach Tor. Alle rettigheter reservert.</p>
+  </footer>
 </body>
 </html>
